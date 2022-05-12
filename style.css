@@ -1,0 +1,43 @@
+body {
+    margin: 2rem auto;
+    max-width: 45rem;
+    font-family: 'Computer Modern Serif', serif;
+    background-color: #ffffea;
+}
+
+
+header {
+    font-size: x-large;
+    padding: 1rem;
+}
+
+
+ul {
+    font-size: large;
+    list-style-type: "";
+}
+
+
+footer {
+    padding: 1rem;
+    float: right;
+    font-size: small;
+    font-style: italic;
+}
+
+
+li {
+    padding: 0.25rem 0;
+}
+
+
+li:after {
+    content: " →";
+    transition: 0.5s;
+}
+
+
+li:hover:after {
+    margin-left: 0.5rem;
+    transition: 0.5s;
+}
